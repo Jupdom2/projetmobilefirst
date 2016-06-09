@@ -1,0 +1,27 @@
+{
+  "name": "ff-atelier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jupdom2/projetmobilefirst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jupdom2/projetmobilefirst/issues"
+  },
+  "homepage": "https://github.com/Jupdom2/projetmobilefirst#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}
