@@ -1,0 +1,26 @@
+.header{
+  background: $greybaltic;
+  text-align: center;
+  height: 83px;
+}
+
+.header--nav{
+    @media (max-width: 700px){
+      display: none;
+      // ul {
+      //   display: flex;
+      //   justify-content: center;
+      //   flex-wrap: wrap;
+      // }
+      //
+      // li {
+      //   margin: 0 15px;
+      // }
+    .logo {
+        background-image: url("../img/logo.png");
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+    }
+  }
+}

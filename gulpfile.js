@@ -19,7 +19,7 @@ gulp.task('css', function() {
    }))
    .pipe(minify())
    .pipe(gulp.dest(prod + '/css/'))
-   .pipe(notify({ message: 'Tâche accompli bravo juju !' }));
+   .pipe(notify({ message: 'Tâche accomplie bravo juju !' }));
 });
 
 

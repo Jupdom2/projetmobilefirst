@@ -1,0 +1,14 @@
+.prefooter {
+  background: $persianbleu;
+}
+.footer{
+  background: $greybaltic;
+}
+
+.footer--list {
+  margin: 0 2% 0 2%;
+
+    li{
+      color: $greybaltic15;
+    }
+}

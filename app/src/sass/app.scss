@@ -1,3 +1,12 @@
-.header{
-  
-}
+// Configuration
+@import 'conf/font';
+@import 'conf/color';
+@import 'conf/interface';
+@import 'conf/layout';
+@import 'conf/mediaqueries';
+
+// Header
+@import 'header/header';
+
+// Footer
+@import 'footer/footer';
