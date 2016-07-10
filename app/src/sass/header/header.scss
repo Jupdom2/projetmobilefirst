@@ -1,20 +1,33 @@
 .header{
   background: $greybaltic;
-  text-align: center;
-  height: 83px;
-}
-
-.header--nav{
-    @media (max-width: 700px){
-      display: none;
-      // ul {
-      //   display: flex;
-      //   justify-content: center;
-      //   flex-wrap: wrap;
-      // }
-      //
-      // li {
-      //   margin: 0 15px;
-      // }
+  display: block;
+  .header--menu{
+    display: none;
+  }
+  .logo{
+    background: url(../../src/img/logo.svg) 0 0 no-repeat;
+    background-position: -8px -58px;
+    background-size: 250px;
+    width: 180px;
+    height: 65px;
+    margin: auto;
+    padding: 37px 0;
+  }
+  .perso{
+    width: 50px;
+    float: right;
+    margin: -62px 10px;
+    .cart{
+      background: url(../../src/img/sprite.svg) 0 0 no-repeat;
+      background-position: -81px -92px;
+      background-size: 300px;
+      width: 30px;
+      height: 30px;
+      margin: 0px 7px;
+    }
+    a{
+      text-align: center;
+      vertical-align: middle;
+    }
   }
 }

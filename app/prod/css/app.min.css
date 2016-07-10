@@ -1,1 +1,175 @@
-.btn p,.header{text-align:center}@font-face{font-family:Lato;font-style:normal;font-weight:100;src:local('Lato Hairline'),local('Lato-Hairline'),url(https://fonts.gstatic.com/s/lato/v11/zJY4gsxBiSo5L7tNutxFNg.ttf) format('truetype')}@font-face{font-family:Lato;font-style:normal;font-weight:300;src:local('Lato Light'),local('Lato-Light'),url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype')}@font-face{font-family:Lato;font-style:normal;font-weight:400;src:local('Lato Regular'),local('Lato-Regular'),url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype')}@font-face{font-family:Lato;font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype')}@font-face{font-family:Lato;font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(https://fonts.gstatic.com/s/lato/v11/4cKlrioa77J2iqTqBgkRWg.ttf) format('truetype')}@font-face{font-family:Lato;font-style:italic;font-weight:100;src:local('Lato Hairline Italic'),local('Lato-HairlineItalic'),url(https://fonts.gstatic.com/s/lato/v11/gc5ZVKiLNkRdGlU3GaSVBfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')}@font-face{font-family:Lato;font-style:italic;font-weight:300;src:local('Lato Light Italic'),local('Lato-LightItalic'),url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:Lato;font-style:italic;font-weight:400;src:local('Lato Italic'),local('Lato-Italic'),url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype')}@font-face{font-family:Lato;font-style:italic;font-weight:700;src:local('Lato Bold Italic'),local('Lato-BoldItalic'),url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:Lato;font-style:italic;font-weight:900;src:local('Lato Black Italic'),local('Lato-BlackItalic'),url(https://fonts.gstatic.com/s/lato/v11/VNUH7ZAcagYBWsAiBBCEY6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:gothamblackregular;src:url(gothamblack_regular-webfont.woff2) format("woff2"),url(gothamblack_regular-webfont.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:gothamboldregular;src:url(gothambold_regular-webfont.woff2) format("woff2"),url(gothambold_regular-webfont.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:gothambookregular;src:url(gothambook_regular-webfont.woff2) format("woff2"),url(gothambook_regular-webfont.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:gothamthinregular;src:url(gothamthin_regular-webfont.woff2) format("woff2"),url(gothamthin_regular-webfont.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:gothamultraregular;src:url(gothamultra_regular-webfont.woff2) format("woff2"),url(gothamultra_regular-webfont.woff) format("woff");font-weight:400;font-style:normal}*{box-sizing:border-box}a{text-decoration:none;color:#f5f5fa}h1{font-size:40px}h2{font-size:24px}h1,h2{text-transform:uppercase}.btn{width:192px;height:55px;background:#de7047}.btn p{color:#fff;padding-top:20px}html{color:#2D2C33;font-family:gothambookregular,lato,Arial}body{font-size:16px}.intro{width:100%;height:600px;background:url(app/src/img/rouleaux.png) no-repeat}.header{background:#2D2C33;height:83px}@media (max-width:700px){.container{width:100%;margin:auto}.header--nav,.intro--scroll{display:none}}.prefooter{background:#009fa2}.footer{background:#2D2C33}.footer--list{margin:0 2%}.footer--list li{color:#f5f5fa}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,700italic,900italic);
+@font-face {
+  font-family: 'gothamblackregular';
+  src: url("gothamblack_regular-webfont.woff2") format("woff2"), url("gothamblack_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gothamboldregular';
+  src: url("gothambold_regular-webfont.woff2") format("woff2"), url("gothambold_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gothambookregular';
+  src: url("gothambook_regular-webfont.woff2") format("woff2"), url("gothambook_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gothamthinregular';
+  src: url("gothamthin_regular-webfont.woff2") format("woff2"), url("gothamthin_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gothamultraregular';
+  src: url("gothamultra_regular-webfont.woff2") format("woff2"), url("gothamultra_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Grey */
+/* Orange */
+/* Bleu */
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #f5f5fa; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 24px; }
+
+h1, h2 {
+  text-transform: uppercase; }
+
+.btn {
+  width: 192px;
+  height: 55px;
+  background: #e58d6c;
+  border: 1px solid #de7047; }
+  .btn p {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px; }
+
+.btn:hover {
+  background: #de7047; }
+
+.smoke {
+  width: 40px;
+  height: 80px;
+  margin: auto;
+  background: url(../../src/img/sprite.png) 0 0 no-repeat;
+  background-position: -8px -50px;
+  background-size: 300px; }
+
+.title .title--black {
+  color: #fff; }
+
+.title .title--white {
+  color: #2D2C33; }
+
+html {
+  color: #2D2C33;
+  font-family: "gothambookregular", "lato", "Arial"; }
+
+body {
+  font-size: 16px; }
+
+.intro {
+  width: 100%;
+  background: url(../../src/img/rouleaux.png) 0 0 no-repeat;
+  background-position: -82px 0px;
+  background-size: cover;
+  padding: 126px 25px; }
+  .intro .intro--spring {
+    padding-top: 32%; }
+  .intro .intro--scroll {
+    display: none; }
+  .intro span {
+    font-weight: 900; }
+  .intro p {
+    font-weight: 600;
+    width: 180px;
+    padding-bottom: 60px; }
+  .intro h1 {
+    padding-bottom: 10px; }
+
+.steps .main-word {
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+  font-size: 1.25em; }
+  .steps .main-word span {
+    color: #009fa2; }
+
+.steps .steps--choix, .steps .steps--cuisine, .steps .steps--emporte, .steps .steps--deguste {
+  width: 100%;
+  padding: 126px 25px; }
+
+.steps .steps--choix {
+  background: url(../../src/img/choisissez.png) 0 0 no-repeat;
+  background-size: cover; }
+
+.steps .steps--cuisine {
+  background: url(../../src/img/cuisinez.png) 0 0 no-repeat;
+  background-size: cover; }
+
+.steps .steps--emporte {
+  background: url(../../src/img/emportez.png) 0 0 no-repeat;
+  background-size: cover; }
+
+.steps .steps--deguste {
+  background: url(../../src/img/degustez.png) 0 0 no-repeat;
+  background-size: cover; }
+
+.learn {
+  width: 100%;
+  background: url(../../src/img/apprendre.png) 0 0 no-repeat;
+  background-size: cover;
+  padding: 326px 25px; }
+
+.header {
+  background: #2D2C33;
+  display: block; }
+  .header .header--menu {
+    display: none; }
+  .header .logo {
+    background: url(../../src/img/logo.svg) 0 0 no-repeat;
+    background-position: -8px -58px;
+    background-size: 250px;
+    width: 180px;
+    height: 65px;
+    margin: auto;
+    padding: 37px 0; }
+  .header .perso {
+    width: 50px;
+    float: right;
+    margin: -62px 10px; }
+    .header .perso .cart {
+      background: url(../../src/img/sprite.svg) 0 0 no-repeat;
+      background-position: -81px -92px;
+      background-size: 300px;
+      width: 30px;
+      height: 30px;
+      margin: 0px 7px; }
+    .header .perso a {
+      text-align: center;
+      vertical-align: middle; }
+
+.prefooter {
+  background: #009fa2; }
+
+.footer {
+  background: #2D2C33; }
+
+.footer--list {
+  margin: 0 2% 0 2%; }
+  .footer--list li {
+    color: #f5f5fa; }

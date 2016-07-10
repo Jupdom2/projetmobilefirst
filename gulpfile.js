@@ -17,12 +17,12 @@ gulp.task('css', function() {
    .pipe(rename({
      suffix: '.min'
    }))
-   .pipe(minify())
+  //  .pipe(minify())
    .pipe(gulp.dest(prod + '/css/'))
    .pipe(notify({ message: 'Tâche accomplie bravo juju !' }));
 });
 
 
 gulp.task('default', function () {
- gulp.watch(src + '/sass/*.scss', ['css']);
+ gulp.watch(src + '/sass/**/*.scss', ['css']);
 });

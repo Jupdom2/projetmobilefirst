@@ -1,13 +1,68 @@
 
 .intro {
   width: 100%;
-  height: 600px;
-  background:url("app/src/img/rouleaux.png") 0 0 no-repeat;
-  // background: #f5f5f5;
+  background: url(../../src/img/rouleaux.png) 0 0 no-repeat;
+  background-position: -82px 0px;
+  background-size: cover;
+  padding: 126px 25px;
+  .intro--spring{
+    padding-top: 32%;
+  }
+  .intro--scroll{
+    display: none;
+  }
+  span{
+    font-weight: 900;
+  }
+  p{
+    font-weight: 600;
+    width: 180px;
+    padding-bottom: 60px;
+  }
+  h1{
+    padding-bottom: 10px;
+  }
 }
 
-.intro--scroll{
-  @media (max-width: 700px) {
-  display: none;
+.steps{
+  .main-word{
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    font-size: 1.25em;
+    span{
+      color: $persianbleu;
+    }
   }
+  .steps--choix,.steps--cuisine,.steps--emporte,.steps--deguste{
+    width: 100%;
+    padding: 126px 25px;
+  }
+  .steps--choix{
+    background: url(../../src/img/choisissez.png) 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  .steps--cuisine{
+    background: url(../../src/img/cuisinez.png) 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  .steps--emporte{
+    background: url(../../src/img/emportez.png) 0 0 no-repeat;
+    background-size: cover;
+  }
+  .steps--deguste{
+    background: url(../../src/img/degustez.png) 0 0 no-repeat;
+    background-size: cover;
+  }
+
+}
+
+
+.learn{
+  width: 100%;
+  background: url(../../src/img/apprendre.png) 0 0 no-repeat;
+  background-size: cover;
+  padding: 326px 25px;
 }
